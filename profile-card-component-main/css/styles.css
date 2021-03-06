@@ -1,0 +1,129 @@
+body {
+		background-color: hsl(185, 75%, 39%);
+		font-family: 'Kumbh Sans', sans-serif;
+		font-size: 18px;
+		color: hsl(227, 10%, 46%);
+}
+
+hr {
+		margin: 1em 0;
+}
+
+/* Pattern Top section */
+
+.bg-pattern-top {
+		position: relative;
+		margin-top: -50%;
+		margin-left: -60%;
+}
+
+/* Preview Section */
+
+.preview {
+		text-align: center;
+		border-radius: 7%;
+		background-color: white;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 350px;
+		height: 350px;
+		top: 30%;
+		left: 30%;
+}
+
+.pattern-card {
+		position: relative;
+		border-radius: 8% 8% 0 0;
+}
+
+.victor-image {
+		border-radius: 100%;
+		position: absolute;
+		margin-top: 70px;
+		margin-left: -223px;
+}
+
+/* User Data Section */
+
+.user {
+		position: relative;
+		margin-top: 40px;
+}
+
+.username {
+		font-weight: bold;
+		padding: 20px;
+		font-weight: bold;
+}
+
+.userage {
+		color: hsl(0, 0%, 59%);
+}
+
+/* Bottom Background Image */
+
+.bg-pattern-bottom {
+		position: relative;
+		left: 20%;
+}
+
+/* Followers */
+
+.followers {
+		width: 4rem;
+		position: absolute;
+		left: 3rem;
+}
+
+.likes {
+		width: 4rem;
+		position: absolute;
+		left: 9rem;
+}
+
+.photos {
+		width: 4rem;
+		position: absolute;
+		left: 15rem;
+}
+
+.bg-pattern-bottom {
+		position: relative;
+		z-index: -1;
+		top: -25%;
+}
+
+.attribution {
+		position: absolute;
+		background-color: white;
+		position: -5%;
+}
+
+@media (max-width: 400px) {
+		.bg-pattern-top {
+				margin-top: -160%;
+				margin-left: -170%;
+		}
+
+		.preview {
+				top: 30%;
+				left: 3%;
+		}
+}
+
+@media (min-width: 1200px) {
+		.bg-pattern-top {
+				margin-top: -20%;
+				margin-left: 0;
+		}
+
+		.preview {
+				top: 40%;
+				left: 43%;
+		}
+
+		.bg-pattern-bottom {
+				margin-left: 10%;
+		}
+}
